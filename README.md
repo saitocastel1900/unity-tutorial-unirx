@@ -65,6 +65,10 @@ Subject<string> _subject = new Subject<string>();
         _subject.OnCompleted();
 ```
 
+
+# MVPパターン
+
+
 ##
 参考にさせていただいた資料  
 https://qiita.com/toRisouP/items/00b8a5bb8e7b68e0686c
