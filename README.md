@@ -66,7 +66,7 @@ Subject<string> _subject = new Subject<string>();
 ```
 
 
-# MVPパターン
+# MV(R)Pパターン
 
 
 ##
