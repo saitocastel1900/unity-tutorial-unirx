@@ -1,6 +1,8 @@
 # unity-tutorial-unirx-
 This is the project I used to understand UniRx.   
 
+## UniRxとは
+イベント処理など使用される。非同期処理もできるが acync\awaitの方が便利なので使用されない
 
 ## Subject
 Subscribeとは関数を登録する処理（購読）  
