@@ -70,7 +70,7 @@ Subject<string> _subject = new Subject<string>();
 Web業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。  
   
 Model:中身全般。ロジック（コード）。データが書き換えられたら通知を発行する。中の処理担当（アイテム取得時にカウントを増やすとか）。  
-Presenter:ModelとPresenterを繋ぐ  
+Presenter:ModelとPresenterを繋ぐ。通史が呼ばれたらそれに対応した処理を呼ぶ。  
 View:見た目全般(UIとか)  見た目の処理担当（カウントが増えたら、テキストを書き換えるとか）。
 ```mermaid
 graph TD
