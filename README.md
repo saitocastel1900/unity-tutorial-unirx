@@ -42,7 +42,8 @@ LINQの様にフィルタリングすることができる
             {
                 Debug.Log("例外が発生したため、再購読します");
         })
-           
+          
+
           
             .Subscribe(text => Debug.Log("通常"+text)
             ,ex=>Debug.Log("例外:"+ex));
@@ -80,7 +81,7 @@ Presenter--Modelを操作-->Model
 View--Viewの変更を通知-->Presenter
 
 ```
-
+ ![test1](https://user-images.githubusercontent.com/96648305/154145076-ed3c6d61-828c-48ef-9a31-cbcaa295937a.png)
 ##
 参考にさせていただいた資料  
 https://qiita.com/toRisouP/items/00b8a5bb8e7b68e0686c  
