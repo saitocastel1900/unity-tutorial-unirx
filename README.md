@@ -70,13 +70,14 @@ Subject<string> _subject = new Subject<string>();
 Web業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。
 ```mermaid
 graph TD
-Model-->Presenter
-Presenter-->View
-Presenter-->Model
-View-->Presenter
+Model--Modelの変更を検知-->Presenter
+Presenter--Viewを操作-->View
+Presenter--Modelを操作-->Model
+View--Viewの変更を通知-->Presenter
 
 ```
 
 ##
 参考にさせていただいた資料  
-https://qiita.com/toRisouP/items/00b8a5bb8e7b68e0686c
+https://qiita.com/toRisouP/items/00b8a5bb8e7b68e0686c  
+https://qiita.com/OKsaiyowa/items/745c5359682c7baad6bf
