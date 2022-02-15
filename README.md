@@ -9,6 +9,7 @@ OnNextとは登録された関数を値を渡して実行する処理
 
 ## Operator
 LINQの様にフィルタリングすることができる
+一覧：https://qiita.com/toRisouP/items/3cf1c9be3c37e7609a2f  
 
 ##
 参考にしたサイト
