@@ -66,7 +66,8 @@ Subject<string> _subject = new Subject<string>();
 ```
 
 
-# MV(R)Pパターン
+# MV(R)Pパターン  
+Web業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。
 
 
 ##
