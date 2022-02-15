@@ -14,6 +14,13 @@ LINQの様にフィルタリングすることができる
 一覧：https://qiita.com/toRisouP/items/3cf1c9be3c37e7609a2f  
 また一連の処理をストリームと呼ぶ
 
+
+## 発行されるメッセージ  
+・OnNext:通常のイベントが発生した際に通知  
+・OnError:例外が発生した際に通知  
+・OnCompleted:ストリーム（一連の処理）が終了した際に通知  
+
+
 ##
 参考にしたサイト
 https://qiita.com/toRisouP/items/2f1643e344c741dd94f8
