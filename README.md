@@ -22,5 +22,5 @@ LINQの様にフィルタリングすることができる
 
 
 ##
-参考にしたサイト
-https://qiita.com/toRisouP/items/2f1643e344c741dd94f8
+参考にした資料
+https://qiita.com/toRisouP/items/00b8a5bb8e7b68e0686c
