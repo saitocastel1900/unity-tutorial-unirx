@@ -5,7 +5,7 @@ This is the project I used to understand UniRx.
 イベント処理などで使用される(繰り返し実行されるUI系統とか)。非同期処理も対応しているが、acync\awaitの方が便利なので使用されない
 
 ### Subject
-Subjectとはメッセージを発酵するソース
+Subjectとはメッセージを発酵するソース  
 Subscribeとは関数を登録する処理（購読）  
 OnNextとは登録された関数を値を渡して実行する処理  
 
