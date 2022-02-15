@@ -68,6 +68,9 @@ Subject<string> _subject = new Subject<string>();
 
 # MV(R)Pパターン  
 Web業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。
+Model:ロジック（コード）  
+Presenter:ModelとPresenterを繋ぐ  
+View:見た目(UIとか)  
 ```mermaid
 graph TD
 Model--Modelの変更を検知-->Presenter
