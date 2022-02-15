@@ -9,14 +9,25 @@ Subjectとはメッセージを発行するソース
 Subscribeとは関数を登録する処理（購読）  
 OnNextとは登録された関数を値を渡して実行する処理  
 ```
-あああ
+  Subject<string> _subject = new Subject<string>();
+
+
+        _subject.Subscribe(text=>Debug.Log(text));
+
+
+        _subject.OnNext("こんにちわ！");
 ```
 
 ### Operator
 LINQの様にフィルタリングすることができる  
 一覧：https://qiita.com/toRisouP/items/3cf1c9be3c37e7609a2f  
-また一連の処理をストリームと呼ぶ
-
+また一連の処理をストリームと呼ぶ  
+```
+  _subejct
+        .Where(msg=>msg.Length<10)
+        .Where(msg=>msg== "HelloWorld!")
+            .Subscribe(msg=>Debug.Log(msg));
+```
 
 ## 発行されるメッセージ  
 ・OnNext:通常のイベントが発生した際に通知  
