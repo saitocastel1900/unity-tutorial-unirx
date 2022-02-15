@@ -67,7 +67,11 @@ Subject<string> _subject = new Subject<string>();
 
 
 # MV(R)Pパターン  
-Web業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。
+Web業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。  
+  
+Model:中身全般。ロジック（コード）。データが書き換えられたら通知を発行する。中の処理担当（アイテム取得時にカウントを増やすとか）。＝＝表示される値を管理  
+Presenter:ModelとPresenterを繋ぐ。通史が呼ばれたらそれに対応した処理を呼ぶ。＝＝間を取り持つ人  
+View:見た目全般(UIとか)  見た目の処理担当（カウントが増えたら、テキストを書き換えるとか）。＝＝値を表示する  
 ```mermaid
 graph TD
 Model--Modelの変更を検知-->Presenter
@@ -81,3 +85,4 @@ View--Viewの変更を通知-->Presenter
 参考にさせていただいた資料  
 https://qiita.com/toRisouP/items/00b8a5bb8e7b68e0686c  
 https://qiita.com/OKsaiyowa/items/745c5359682c7baad6bf
+https://developers.cyberagent.co.jp/blog/archives/4262/
