@@ -1,4 +1,4 @@
-# unity-tutorial-unirx-
+# unity-tutorial-unirx-mvrp
 This is the project I used to understand UniRx.   
 UniRxの学習の一環で作成したプロジェクトです
 ## UniRxとは
