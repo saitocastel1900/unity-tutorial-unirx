@@ -5,7 +5,7 @@ using UniRx;
 using UnityEngine.UI;
 
 /// <summary>
-/// ’‡‰î–ğ/ƒf[ƒ^ó‚¯“n‚µ
+/// ’‡‰î–ğ
 /// </summary>
 public class presenter3 : MonoBehaviour
 {
@@ -22,16 +22,15 @@ public class presenter3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //model=>view
+
         _countmodel.Current
             .Subscribe(x => {
-                _slider.value = x;
+
                 _inputfield.text = x.ToString();
         })
             .AddTo(this);
 
 
-        //view=>model
         _inputfield
             .OnValueChangedAsObservable()
             .Select(x =>
