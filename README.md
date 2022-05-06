@@ -85,5 +85,6 @@ View--Viewの変更を通知-->Presenter
 ##
 参考
 https://qiita.com/toRisouP/items/00b8a5bb8e7b68e0686c  
-https://qiita.com/OKsaiyowa/items/745c5359682c7baad6bf
-https://developers.cyberagent.co.jp/blog/archives/4262/
+https://qiita.com/OKsaiyowa/items/745c5359682c7baad6bf  
+https://developers.cyberagent.co.jp/blog/archives/4262/  
+https://asciidwango.jp/post/631460628113014785/unirxunitask%E5%AE%8C%E5%85%A8%E7%90%86%E8%A7%A3
